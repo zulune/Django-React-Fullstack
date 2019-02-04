@@ -9,7 +9,7 @@ import CustomLayout from './containers/Layout';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Router>
           <CustomLayout>
             <BaseRouter />
